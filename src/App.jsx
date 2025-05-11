@@ -10,6 +10,9 @@ import Type from "./pages/Type";
 function App() {
   return (
     <>
+      <div className="loading">
+        <img src="load.gif" alt="" />
+      </div>
       <a href="#header">
         {" "}
         <button class="Btn">
